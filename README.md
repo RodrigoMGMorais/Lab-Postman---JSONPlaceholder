@@ -28,7 +28,7 @@ Projeto prático desenvolvido para aprender e testar requisições HTTP em uma A
 URL: `{{base_url}}/users`
 Status esperado: `200 OK`
 
-./imagens/GET automatico.jpg
+![Texto explicativo](./imagens/GET do Postman.jpg)
 
 ---
 
