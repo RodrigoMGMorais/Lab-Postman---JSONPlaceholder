@@ -28,7 +28,7 @@ Projeto prático desenvolvido para aprender e testar requisições HTTP em uma A
 URL: `{{base_url}}/users`
 Status esperado: `200 OK`
 
-![Texto explicativo](./imagens/GET do Postman.jpg)
+![GET](./imagens/GET do Postman.jpg)
 
 ---
 
@@ -36,16 +36,11 @@ Status esperado: `200 OK`
 URL: `{{base_url}}/posts`
 Status esperado: `201 Created`
 
-*Adicione aqui a sua imagem:*
-![POST](./POST do Postman.jpg)
-
 ---
 
 ### 3. Requisição PUT - Atualização completa
 URL: `{{base_url}}/posts/1`
 Status esperado: `200 OK`
-
-![PUT](./imagens/nome-da-sua-foto-put.jpg)
 
 ---
 
