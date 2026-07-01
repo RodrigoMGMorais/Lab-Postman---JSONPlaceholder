@@ -1,6 +1,9 @@
 # 📡 Teste de API REST com Postman
 Projeto prático desenvolvido para estudar e testar requisições HTTP em uma API pública.
 
+# 📡 Estudo de APIs REST com Postman
+
+Projeto prático desenvolvido para aprender e testar requisições HTTP em uma API pública, usando a ferramenta Postman.
 ---
 
 ## 🛠️ Ferramentas utilizadas
