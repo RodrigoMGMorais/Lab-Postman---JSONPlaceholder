@@ -28,7 +28,7 @@ Projeto prático desenvolvido para aprender e testar requisições HTTP em uma A
 URL: `{{base_url}}/users`
 Status esperado: `200 OK`
 
-![GET automático](./imagens/GET automático.jpg)
+./imagens/GET automatico.jpg
 
 ---
 
@@ -53,7 +53,6 @@ Status esperado: `200 OK`
 URL: `{{base_url}}/posts/1`
 Status esperado: `200 OK`
 
-![PATCH](./imagens/nome-da-sua-foto-patch.jpg)
 
 ---
 
@@ -61,7 +60,6 @@ Status esperado: `200 OK`
 URL: `{{base_url}}/posts/1`
 Status esperado: `200 OK`
 
-![DELETE](./imagens/nome-da-sua-foto-delete.jpg)
 
 ---
 
