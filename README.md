@@ -29,3 +29,5 @@ Projeto prático desenvolvido para estudar e testar requisições HTTP em uma AP
 
 ## 📁 Arquivos
 - `Lab Postman - JSONPlaceholder.json`: Coleção completa pronta para importar no Postman
+
+  
