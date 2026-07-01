@@ -37,7 +37,7 @@ URL: `{{base_url}}/posts`
 Status esperado: `201 Created`
 
 *Adicione aqui a sua imagem:*
-![POST](./imagens/nome-da-sua-foto-post.jpg)
+![POST](./POST do Postman.jpg)
 
 ---
 
