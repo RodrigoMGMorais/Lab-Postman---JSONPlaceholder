@@ -11,67 +11,56 @@ Projeto prático desenvolvido para aprender e testar requisições HTTP em uma A
 
 ---
 
-## ✅ Métodos HTTP implementados
-| Método | Finalidade |
-|---|---|
-| `GET` | Consultar e listar dados |
-| `POST` | Criar novo registro |
-| `PUT` | Atualizar todos os campos de um item |
-| `PATCH` | Alterar apenas campos específicos |
-| `DELETE` | Remover registro |
+## ✅ Funcionalidades implementadas
+Todos os principais métodos HTTP foram testados e validados:
 
----
-
-## 📸 Exemplos de execução
-
-### 1. Requisição GET com testes automáticos
-URL: `{{base_url}}/users`
-Status esperado: `200 OK`
-
-![GET](./imagens/GET do Postman.jpg)
-
----
-
-### 2. Requisição POST - Criar novo registro
-URL: `{{base_url}}/posts`
-Status esperado: `201 Created`
-
----
-
-### 3. Requisição PUT - Atualização completa
-URL: `{{base_url}}/posts/1`
-Status esperado: `200 OK`
-
----
-
-### 4. Requisição PATCH - Alteração parcial
-URL: `{{base_url}}/posts/1`
-Status esperado: `200 OK`
-
-
----
-
-### 5. Requisição DELETE - Excluir registro
-URL: `{{base_url}}/posts/1`
-Status esperado: `200 OK`
-
+| Método | Finalidade | O que faz |
+|---|---|---|
+| `GET` | Consultar dados | Lista todos os registros ou busca um item específico por ID |
+| `POST` | Criar novo dado | Cadastra um novo registro na API |
+| `PUT` | Atualização completa | Substitui **todos os campos** de um registro existente |
+| `PATCH` | Atualização parcial | Altera **apenas os campos informados**, mantendo o resto dos dados |
+| `DELETE` | Remoção | Exclui um registro (simulado nessa API de teste) |
 
 ---
 
 ## 🚀 Boas práticas aplicadas
-✅ Uso de variáveis de ambiente para manter a URL organizada
-✅ Testes automáticos para validar status e conteúdo da resposta
-✅ Estrutura clara e fácil de entender
+✅ Uso de **variáveis** → `{{base_url}}` para reutilizar o endereço e manter a organização
+✅ **Testes automáticos** → Verificam se o status e o conteúdo da resposta estão corretos
+✅ Estrutura organizada → Nomes claros para cada requisição
 
 ---
 
-## 📁 Arquivos do projeto
-- `Lab Postman - JSONPlaceholder.postman_collection.json`: Coleção completa, pronta para importar no Postman
-- Pasta `imagens`: Capturas de tela das requisições funcionando
+## 📸 Exemplos de execução e resultados
+
+> **1. Requisição GET - Listar todos os usuários**
+> - URL: `{{base_url}}/users`
+> - Resultado esperado: Status `200 OK` + lista de usuários em formato JSON
+
+> **2. Requisição POST - Criar novo registro**
+> - URL: `{{base_url}}/posts`
+> - Corpo enviado:
+> ```json
+> {
+>   "title": "Meu primeiro cadastro",
+>   "body": "Aprendendo a usar o método POST no Postman",
+>   "userId": 1
+> }
+> ```
+> - Resultado: Status `201 Created` + retorno com o ID gerado automaticamente
+
+> **3. Requisição PATCH - Alterar apenas um campo**
+> - URL: `{{base_url}}/posts/1`
+> - Enviado só o campo que quer mudar, mantendo o restante dos dados
 
 ---
 
-## 📥 Como usar
-1. Baixe o arquivo `.json` da coleção
+## 📁 Arquivos disponíveis
+- `Lab Postman - JSONPlaceholder.postman_collection.json`: Coleção completa, pronta para **importar diretamente no Postman**
+
+---
+
+## 📥 Como importar no Postman
+1. Baixe o arquivo `.json` deste repositório
 2. Abra o Postman → clique em **Import**
-3. Selecione o arquivo → todas as requisições e testes já estarão configurados
+3. Selecione o arquivo → pronto, toda a estrutura será carregada
